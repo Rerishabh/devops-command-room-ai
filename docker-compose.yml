@@ -1,0 +1,9 @@
+services:
+  devops-api:
+    build: .
+    container_name: devops-command-room-api
+    ports:
+      - "8000:8000"
+    environment:
+      - SERVICE_STATUS=degraded
+
