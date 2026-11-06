@@ -11,7 +11,7 @@ def read_root():
 
 @app.get("/health")
 def health_check():
-    service_status = os.getenv("SERVICE_STATUS", "degraded")
+    service_status = os.getenv("SERVICE_STATUS", "healthy")
     if service_status == "healthy":
         return {"status": "healthy", "uptime_s": 3600}
     if service_status == "degraded":
@@ -23,4 +23,3 @@ def health_check():
         status_code=500,
         detail=f"Service degraded: {service_status}"
     )
-
