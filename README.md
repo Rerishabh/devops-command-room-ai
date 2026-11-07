@@ -1,5 +1,15 @@
 # DevOps Command Room AI
 
+<p align="center">
+  <a href="https://youtu.be/tjjwNbnUvLg">
+    <img src="https://img.youtube.com/vi/tjjwNbnUvLg/maxresdefault.jpg"
+         alt="DevOps Command Room AI Demo"
+         width="850">
+  </a>
+  <br>
+  <strong>▶ Watch the Project Demo</strong>
+</p>
+
 **Flip the Switch Hackathon Submission**
 
 - **Hackathon:** Flip the Switch Hackathon
